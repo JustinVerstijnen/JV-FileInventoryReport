@@ -89,7 +89,7 @@ $HtmlHeader = @"
         <a href="https://justinverstijnen.nl" target="_blank">
             <img src="https://justinverstijnen.nl/wp-content/uploads/2025/04/cropped-Logo-2.0-Transparant.png" alt="Logo">
         </a>
-        <h1>File Inventory Report</h1>
+        <h1>JV-FileInventoryReport</h1>
     </header>
     <main>
         <table>
