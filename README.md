@@ -1,14 +1,14 @@
 # JV-FileInventoryReport
 
 A simple PowerShell script to generate a report of the largest files within a specified directory.  
-The script recursively scans a given path, sorts files by size, and exports the top results to a CSV file on the user’s Desktop.  
+The script recursively scans a given path, sorts files by size, and exports the top results to a HTML file on the user’s Desktop.  
 
 ---
 
 ## Features
 - Recursively scans a directory  
 - Finds the **N largest files**  
-- Exports results to **CSV** (easy to open in Excel)  
+- Exports results to **HTML**
 - User-friendly ASCII banner for output  
 
 ---
@@ -19,7 +19,7 @@ You can edit the following parameters at the top of the script:
 ```powershell
 $PathToScan = "E:\Shares\Administratie"   # The folder you want to scan
 $Desktop = [Environment]::GetFolderPath("Desktop")
-$FileName = "JV-FileInventoryReport.csv"  # The name of the output report
+$FileName = "JV-FileInventoryReport.html"  # The name of the output report
 $ReportOutput = "$Desktop\$Filename"      # Path where report will be saved
 $BiggestFilesCount = "100"                # How many largest files to include (max recommended: 250)
 ```
@@ -27,7 +27,7 @@ $BiggestFilesCount = "100"                # How many largest files to include (m
 ---
 
 ## Example Output
-The CSV report includes:  
+The HTML report includes:  
 - **FullName** → Full path of the file  
 - **SizeMB** → File size in MB  
 - **LastWriteTime** → Last modification date  
