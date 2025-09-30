@@ -9,7 +9,7 @@ Write-Host "     _           _   _        __     __            _   _  _
                                                        |__/                  " -ForegroundColor DarkCyan
                                                       
 # === PARAMETERS ===
-$PathToScan = "E:\Shares\Administratie"
+$PathToScan = "C:\Folder\ToScan"
 
 $Desktop = [Environment]::GetFolderPath("Desktop")
 $HtmlName = "JV-FileInventoryReport.html"
