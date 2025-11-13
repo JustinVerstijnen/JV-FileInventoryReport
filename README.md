@@ -17,7 +17,7 @@ The script recursively scans a given path, sorts files by size, and exports the 
 You can edit the following parameters at the top of the script:
 
 ```powershell
-$PathToScan = "E:\Shares\Administratie"   # The folder you want to scan
+$PathToScan = "C:\Temp"   # The folder you want to scan
 $Desktop = [Environment]::GetFolderPath("Desktop")
 $FileName = "JV-FileInventoryReport.html"  # The name of the output report
 $ReportOutput = "$Desktop\$Filename"      # Path where report will be saved
